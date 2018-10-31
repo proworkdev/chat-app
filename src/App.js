@@ -137,12 +137,11 @@ import Actionsheet from "./screens/actionsheet";
 import NHAccordion from "./screens/accordion/";
 import NHDatePicker from "./screens/datepicker/";
 import BottomTabBar from "./screens/bottomTabBar";
-import Chat from "./screens/bottomTabBar/Chat"
+
 const Drawer = DrawerNavigator(
   {
     Home: { screen: Home },
     BottomTabBar: { screen: BottomTabBar },
-    Chat: { screen: Chat },
     Anatomy: { screen: Anatomy },
     Header: { screen: Header },
     Footer: { screen: Footer },
